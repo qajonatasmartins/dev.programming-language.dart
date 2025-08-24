@@ -10,5 +10,5 @@ void main() {
 
   var planetasObj = ['Jupiter', 'Saturno', 'Urano', 'Netuno'];
 
-  planetasObj.where((nome) => name.contains('turn')).forEach(print);
+  planetasObj.where((nome) => nome.contains('turn')).forEach(print);
 }
