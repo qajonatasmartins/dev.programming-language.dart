@@ -1,0 +1,14 @@
+import 'variaveis.dart';
+
+void main() {
+  int fibonacci(int n) {
+    if (n == 0 || n == 1) return n;
+    return fibonacci(n - 1) + fibonacci(n - 2);
+  }
+
+  print(fibonacci(20));
+
+  var planetasObj = ['Jupiter', 'Saturno', 'Urano', 'Netuno'];
+
+  planetasObj.where((nome) => name.contains('turn')).forEach(print);
+}
